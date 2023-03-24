@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <h2 id="head">Grading System Assignment</h2>
+      <div id="marks-container">
+        <div id="container-1">
+          <div >
+            <h2 class="heading-1">Grading System in JS</h2>
+          </div>
+          <div id="subject-container">
+            <div>
+              <label>English : </label>
+              <input type="number" id="english" /><br />
+            </div>
+            <div>
+              <label>Maths : </label>
+              <input type="number" id="maths" /><br />
+            </div>
+            <div>
+              <label>Physics : </label>
+              <input type="number" id="physics" /><br />
+            </div>
+            <div>
+              <label>Chemistry : </label>
+              <input type="number" id="chemistry" /><br />
+            </div>
+            <div>
+              <label>Computer : </label>
+              <input type="number" id="computer" /><br />
+            </div>
+            <button id="calculate">Calculate Grade</button>
+          </div>
+        </div>
+
+        <div id="container-2">
+          <div id="sub-cont-1">
+            <h2 class="t1">Total</h2>
+            <b id="totalMarks"></b>
+          </div>
+          <div id="sub-cont-2">
+            <h2 class="t2">Average</h2>
+            <b id="averageMarks"></b>
+          </div>
+          <div id="sub-cont-3">
+            <h2 class="t3">Grade</h2>
+            <b id="grade"></b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
